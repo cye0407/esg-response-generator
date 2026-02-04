@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__esg-response-generator__directory_tree",
+      "mcp__esg-response-generator__list_allowed_directories",
+      "mcp__esg-response-generator__search_files",
+      "Bash(npm install:*)",
+      "Bash(npx vitest run)",
+      "Bash(npx tsc:*)",
+      "Bash(dir:*)",
+      "mcp__shared__read_text_file",
+      "Bash(npx vite:*)",
+      "Bash(find \"C:\\\\Users\\\\User\\\\Documents\\\\CY\\\\ecosystems-united\\\\tools\\\\esg-response-generator\" -type d -name \"src{*\")",
+      "Bash(npx vitest run:*)",
+      "Bash(node -e \"\nconst {matchQuestion} = require\\(''./src/lib/respond/keywordMatcher.ts''\\);\n\")",
+      "Bash(npm run dev:*)"
+    ]
+  }
+}
